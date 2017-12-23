@@ -7,7 +7,7 @@ fun main(Args: Array<String>) {
     println("College name"+cName)
 
     println("Enter name")
-    var name:String? //input can be string only
+    var name:String? //"?" accepts null value
     name= readLine()//declare like this to read from anywhere
 
     println("Enter Marks for 3 tests")
