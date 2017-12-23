@@ -14,7 +14,7 @@ fun main(Args: Array<String>) {
     var test1:Int?
     test1= readLine()!!.toInt() // convert string into int
     var test2:Int?
-    test2= readLine()!!.toInt()
+    test2= readLine()!!.toInt()//"!!" wont run unless it have an value
     var extra:Int?
     extra= readLine()!!.toInt()
     var marks:Int?= test2 + test1 +extra
